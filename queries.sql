@@ -22,3 +22,49 @@ GROUP BY species;
 
 
 
+SELECT owners.id, full_name, name
+FROM owners
+JOIN animals
+ON owners.id = owner_id
+WHERE full_name = 'Melody Pond';
+
+SELECT species.id, species.name, animals.name
+FROM species 
+JOIN animals
+ON species.id = species_id
+WHERE species.name = 'Pokemon'; 
+
+SELECT owners.id, owners.full_name, animals.name
+FROM owners
+LEFT JOIN animals
+ON owners.id = owner_id;
+
+SELECT species.id, species.name, COUNT(animals.name)
+FROM species 
+JOIN animals
+ON species.id = species_id
+GROUP BY species.id;
+
+SELECT species_id, species.name AS specie, animals.name As animal
+FROM species 
+JOIN animals
+ON species.id = species_id
+JOIN owners
+ON owners.id = owner_id
+WHERE owners.full_name = 'Jennifer Orwell' AND species.name = 'Digimon';
+
+SELECT owners.full_name, animals.name
+FROM owners
+JOIN animals
+ON owners.id = owner_id
+WHERE full_name = 'Dean Winchester' AND escape_attempt = 0; 
+
+SELECT owners.full_name, COUNT(owners.id)
+FROM owners
+JOIN animals
+ON owners.id = owner_id
+GROUP BY owners.id
+ORDER BY COUNT(owners.id) DESC;
+
+
+
