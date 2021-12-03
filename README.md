@@ -14,24 +14,15 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 
 ## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+:bearded_person: **Hector**
+  - GitHub: [@githubhandle](https://github.com/Hector096)
+  - Linkedin: [@linkedinhandle](https://www.linkedin.com/in/hector096/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Hector096/vet-clinic/issues).
 
 ## Show your support
 
